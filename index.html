@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="תיק העבודות של תומר נתי - מפתח אתרים">
+    <title>Tomer Nati</title>
+    <link rel="stylesheet" href="style/Protfolio.css">
+</head>
+
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="left-side">
+            <img src="images/profile-image.png" alt="תמונת הפרופיל של תומר" class="profile-image">
+            <p>Tomer Nati</p>
+        </div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <div class="nav-links">
+            <a href="#contact" aria-label="מעבר לטופס צור קשר">צור קשר</a>
+            <a href="#services" aria-label="מעבר לטופס שירותים">שירותים</a>
+            <a href="#about" aria-label="מעבר לטופס אודות">אודות</a>
+            <a href="#home" aria-label="מעבר לטופס ראשי">ראשי</a>
+        </div>
+    </nav>
+
+    <button id="scrollToTopBtn" title="scroll To Top">&#8679;</button>
+
+    <div class="reception" id="home">
+        <h1>תיק העבודות שלי</h1>
+        <p>ברוכים הבאים,<br> פה תוכלו להתרשם מהתוכן שיצרתי עד כה במהלך הלימודים שלי במכללה.</p>
+    </div>
+
+    <div class="logos">
+        <img src="images/html.jpg" alt="HTML Logo">
+        <img src="images/css.jpg" alt="CSS Logo">
+    </div>
+
+    <div class="dividing"></div>
+
+    <div class="info" id="about">
+        <img src="images/profile-image.png" class="profile-image-info" alt="תמונת הפרופיל של תומר">
+        <br>
+        <h2>קצת עלי</h2>
+        <p>היי, אני תומר!</p>
+        <p>בן 23 ממרכז הארץ,למדתי במכללת האקריו.</p>
+        <p> אני אוהב מאוד את העבודה ואת היכולת שלי ליצור ולהשפיע על העסק של כל לקוח שלי.</p>
+    </div>
+    <br>
+    <div class="container">
+        <a href="#" class="resume" onclick="alert('קורות החיים יהיו זמינים בהמשך.'); return false;">להורדת קורות
+            החיים >></a>
+    </div>
+
+
+    <div class="selectedProjects" id="services">
+        <div class="projects-header">
+            <h2>עבודות נבחרות</h2>
+            <p>תוכלו להתרשם ממספר פרוייקטים שלי כאן.</p>
+            <br>
+            <br>
+        </div>
+
+        <div class="projects-grid">
+            <div class="card">
+                <img src="images/p1img.png" alt="Project 1" class="fitcard">
+                <div class="card-content">
+                    <h3>כאן ועכשיו</h3>
+                    <p>הרשמה למתנת חג עבור קבוצות עובדים גדולות. </p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName1/index1.html" class="card-button"
+                    aria-label="מעבר לעמוד פרויקט כאן ועכשיו">לעמוד הפרוייקט >></a>
+            </div>
+
+            <div class="card">
+                <img src="images/p2img.png" alt="Project 2" class="fitcard">
+                <div class="card-content">
+                    <h3>להוביל אותך קדימה</h3>
+                    <p>הפתרון שיזניק אותך קדימה בעולם העסקי.</p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName2/index2.html" class="card-button"
+                    aria-label="מעבר לעמוד פרוייקט להוביל אותך קדימה ">לעמוד הפרוייקט >></a>
+            </div>
+
+            <div class="card">
+                <img src="images/p3img.png" alt="Project 3" class="fitcard">
+                <div class="card-content">
+                    <h3>קפה טוב לבוקר טוב</h3>
+                    <p>חווית קפה מושלמת להתחלת יום מוצלח.</p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName3/index3.html" class="card-button">לעמוד הפרוייקט >></a>
+            </div>
+
+            <div class="card">
+                <img src="images/p4img.png" alt="Project 4" class="fitcard">
+                <div class="card-content">
+                    <h3>אנחנו נוביל אותך</h3>
+                    <p>תן לנו לעזור לך להגיע להצלחה. אתם לא לבד!</p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName4/index4.html" class="card-button">לעמוד הפרוייקט >></a>
+            </div>
+
+            <div class="card">
+                <img src="images/p5img.png" alt="Project 5" class="fitcard">
+                <div class="card-content">
+                    <h3>מגורים חלומיים</h3>
+                    <p>הזדמנות נדירה לחיות אחרת. בפרוקייט Blue Horizon</p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName5/index5.html" class="card-button">לעמוד הפרוייקט >></a>
+            </div>
+
+            <div class="card">
+                <img src="images/p6img.png" alt="Project 6" class="fitcard">
+                <div class="card-content">
+                    <h3>ייעוץ חינם</h3>
+                    <p>קבלו ייעוץ ללא התחייבות וקחו את הצעד הבא.</p>
+                </div>
+                <div class="cardsLogos">
+                    <img src="images/html.jpg" alt="HTML Logo">
+                    <img src="images/css.jpg" alt="CSS Logo">
+                </div>
+                <a href="projects/projectName6/index6.html" class="card-button">לעמוד הפרוייקט >></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-icon">
+                <img src="images/mailBox.png" alt="mailBoxIcon">
+            </div>
+
+            <div class="contact-form">
+                <h2>צור קשר</h2>
+                <p>לכל שאלה או בקשה, מלא את הטופס ואחזור אליך בהקדם.</p>
+
+                <form action="#" method="post">
+                    <label for="name">שם מלא:</label>
+                    <input type="text" id="name" name="name" placeholder="שם מלא:" required>
+                    <label for="email">מייל:</label>
+                    <input type="email" id="email" placeholder="כתובת מייל:" required>
+                    <label for="Phone-Number">טלפון:</label>
+                    <input type="tel" id="Phone-Number" placeholder="מספר טלפון:" required>
+                    <label for="message">הודעה:</label>
+                    <textarea name="message" id="message" rows="3" placeholder="תוכן ההודעה:" required></textarea>
+                    <button type="submit">שלח הודעה</button>
+                </form>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                        <img src="images/description.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/tn092001" target="_blank">
+                        <img src="images/public.png" alt="GitHub">
+                    </a>
+                    <a href="mailto:@gmail.com">
+                        <img src="images/mail.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>נבנה על ידי <strong>תומר נתי</strong> &copy; 2025</p>
+    </footer>
+
+    <script src="script/Protfolio.js" defer></script>
+</body>
+
+</html>
