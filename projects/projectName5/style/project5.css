@@ -132,6 +132,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
     .container {
         flex-direction: column;
         width: 100vw;
